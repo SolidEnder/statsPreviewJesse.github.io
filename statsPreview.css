@@ -1,0 +1,153 @@
+body {
+	background-color: hsl(233, 47%, 7%);
+}
+div#statsContainer {
+	background-color: hsl(244, 38%, 16%);
+	width: 270px;
+	height: 640px;
+	border-radius: 10px;
+	position: absolute;
+}
+img#stockPhoto {
+	position: absolute;
+	top: 0;
+	width: 270px;
+	height: 270px;
+	border-radius: 10px 10px 0 0;
+}
+h2#head {
+	position: absolute;	
+	top: 275px;
+	left: 20px;
+	color: white;
+	white-space: normal;
+	font-family: "Inter", sans-serif;
+	width: 220px;
+	text-align: center;
+}
+em#headColor {
+	color: hsl(277, 64%, 61%);
+}
+p#textBody {
+	position: absolute;
+	top: 380px;
+	left: 10px;
+	color: hsla(0, 0%, 100%, 0.75);
+	white-space: normal;
+	text-align: center;
+	font-family: "Lexend Deca" sans-serif;
+	width: 240px;
+}
+h3#companyNums {
+	position: absolute;
+	top: 470px;
+	left: 100px;
+	color: hsla(0, 0%, 100%, 0.6);
+	font-family: "Inter", sans-serif;
+}
+p#companies {
+	position: absolute;
+	top: 500px;
+	left: 90px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 10px;
+	font-family: "Lexend Deca", sans-serif;
+}
+h3#tempNums {
+	position: absolute;
+	top: 520px;
+	left: 100px;
+	color: hsla(0, 0%, 100%, 0.6);
+	font-family: "Inter", sans-serif;
+}
+p#temp {
+	position: absolute;
+	top: 550px;
+	left: 90px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 10px;
+	font-family: "Lexend Deca", sans-serif;
+}
+h3#querNums {
+	position: absolute;
+	top: 570px;
+	left: 95px;
+	color: hsla(0, 0%, 100%, 0.6);
+	font-family: "Inter", sans-serif;
+}
+p#quer {
+	position: absolute;
+	top: 600px;
+	left: 95px;
+	color: hsla(0, 0%, 100%, 0.75);
+	font-size: 10px;
+	font-family: "Lexend Deca", sans-serif;
+}
+
+@media (min-width: 600px) {
+	div#statsContainer {
+		width: 600px;
+		height: 325px;
+		position: absolute;
+		top: 150px;
+		left: 300px;
+	}
+	
+	img#stockPhoto {
+		position: absolute;
+		left: 275px;
+		border-radius: 0 10px 10px 0;
+		width: 325px;
+		height: 325px;
+	}
+	
+	h2#head {
+		position: absolute;
+		top: 20px;
+		width: 250px;
+	}
+	
+	p#textBody {
+		position: absolute;
+		top: 100px;
+		left: 20px;
+		width: 250px;
+		text-align: start;
+	}
+	
+	h3#companyNums {
+		position: absolute;
+		top: 220px;
+		left: 20px;
+	}
+	
+	p#companies {
+		position: absolute;
+		top: 250px;
+		left: 20px;
+	}
+	
+	h3#tempNums {
+		position: absolute;
+		top: 220px;
+		left: 90px;
+	}
+	
+	p#temp {
+		position: absolute;
+		top: 250px;
+		left: 90px;
+	}
+	
+	h3#querNums {
+		position: absolute;
+		top: 220px;
+		left: 160px;
+	}
+	
+	p#quer {
+		position: absolute;
+		top: 250px;
+		left: 160px;
+	}
+}
